@@ -10,10 +10,6 @@ A mobile application built with Flutter that demonstrates how to implement and m
 - **API Data Fetching**: Demonstrates how to fetch data from an API while handling various network states
 - **Connection State UI**: Updates the UI based on the current connection status
 
-## Screenshots
-
-[Place your screenshots here]
-
 ## Technologies Used
 
 - Flutter
@@ -27,7 +23,7 @@ A mobile application built with Flutter that demonstrates how to implement and m
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/network_connectivity_app.git
+git clone https://github.com/KCMbogo/network_connectivity_app.git
 ```
 
 2. Navigate to the project directory:
@@ -72,16 +68,6 @@ This app requires the following permissions:
 <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 ```
 
-### iOS
-Add these keys to your Info.plist file:
-```xml
-<key>NSAppTransportSecurity</key>
-<dict>
-    <key>NSAllowsArbitraryLoads</key>
-    <true/>
-</dict>
-```
-
 ## How It Works
 
 1. **Network Status Detection**: The app uses the `connectivity_plus` package to detect and monitor network connection status.
@@ -102,10 +88,6 @@ Add these keys to your Info.plist file:
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgements
 
